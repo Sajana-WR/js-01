@@ -1,12 +1,38 @@
-let day=1
+let student = [
+    {
+        name : "kamal",
+        age : 25,
+        isStudent : true,
+        marks : [
+            {
+                subject:"Maths",
+                marks:80
+            },
+            {
+                subject:"Bio",
+                marks:75
+            }
+        ]
 
-switch(day){
-    case 1:
-        console.log("Monday")
-        break;
+    },
+    {
+        name : "sajana",
+        age : 20,
+        isStudent : true,
+        marks : [
+            {
+                subject:"It",
+                marks:100
 
-    case 2:
-        console.log("Tuesday")
-    default:
-        console.log("invalid") 
-}
+            },
+            {
+                subject: "Maths",
+                marks:90
+            }
+        ]
+    }
+
+
+]
+
+console.log(student[1].marks[0].marks)
